@@ -1,0 +1,208 @@
+/* CSS Document */
+
+body{
+	background: #b1b1b1 url(../images/backgrounds/wallpaper.jpg) no-repeat fixed;
+	background-size: 100%;
+}
+
+
+/*** CONTAINERS ***/
+
+#topbutton{
+	position:fixed;
+	bottom: 20px;
+    right: 20px;
+	width:40px;
+	height:40px;
+	background-color:#0048ff;
+	text-align:center;
+}
+
+#title{
+	padding:20px 0 40px 0;
+
+}
+
+#services{
+	background-color:#FFF;
+}
+
+#mastercam{
+	background: #414141 url(../images/backgrounds/circuits.gif) no-repeat;
+	background-size:contain;
+}
+
+#bio{
+	background-color:#d5d8ff;
+}
+
+#contactUs{
+	border:medium #FFF solid;
+	margin:0 50px;
+	padding:20px 0;
+}
+
+#contact{
+	background-color:#414141;
+}
+
+#products{
+	/* background:#000; */
+	background:#f2ecdf;
+}
+
+#footer{
+	
+	background-color:#414141;
+}
+
+#copyright{
+	padding:20px 60px;
+	background-color:#0048ff;
+}
+
+.buttons li{
+	display:inline-block;
+}
+
+.buttons{
+	width:100%;
+	margin:0 auto 0 auto;
+}
+
+.textbox{
+	width:90%;
+	max-width:700px;
+	margin:0 auto;
+	text-align:center;
+}
+
+#sendMessageContainer{
+	max-width:500px;
+}
+
+#headshot img {
+    position: relative;
+    right: 45px;
+}
+
+/*** CLASSES ***/
+.center{
+	text-align:center;
+}
+
+.whitetxt h1, .whitetxt h2, .whitetxt h3, .whitetxt li, .whitetxt p{
+	color:#F5F5F5;
+}
+
+.content{
+	margin:0 auto 0 auto;
+	padding:80px 20px;
+	width:70%;
+	max-width:1600px;
+	overflow:auto;
+}
+
+.buttonLikeImage{
+	width:200px;
+	height:70px;
+	margin:20px;
+}
+.buttonLikeImage:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
+.box{
+	margin:20px;
+}
+
+.button h2{
+	color:#FFF;
+}
+
+/*** BUTTONS ***/
+.blueButton{
+	width:300px;
+	height:70px;
+	margin:20px;
+	background-color:#0048ff;
+	border:solid medium #0048ff;
+}
+.blueButton h2{
+	color:#FFF;
+	margin:17px 0;
+}
+.blueButton:hover{
+	background-color:transparent;
+	border:solid medium #0048ff;
+	color:#0048ff;
+}
+.blueButton:hover h2{
+	color:#0048ff;
+}
+
+
+.redButton{
+	width:250px;
+	height:70px;
+	margin:20px;
+	background-color:#c01421;
+	border:solid medium #c01421;
+}
+.redButton h2{
+	color:#FFF;
+	margin:17px 0;
+}
+.redButton:hover{
+	background-color:transparent;
+	border:solid medium #c01421;
+	color:#c01421;
+}
+.redButton:hover h2{
+	color:#c01421;
+}
+
+.btn-block{
+	max-width:350px;
+	min-height:70px;
+	margin:20px;
+}
+.orangeButton{
+	padding:0 20px;
+	background-color:#ff8900;
+	border:solid medium #ff8900;
+}
+.orangeButton h2{
+	color:#FFF;
+	margin:17px 0;
+}
+.orangeButton:hover{
+	background-color:transparent;
+	border:solid medium #ff8900;
+	color:#ff8900;
+}
+.orangeButton:hover h2{
+	color:#ff8900;
+}
+
+.text-white{
+	color:#FFF;
+}
+
+label{
+	font-weight:bold;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
+}
+
+input, textarea{
+	width:100%;
+	margin-bottom:20px;
+}
+
+.max-width{
+	width:100%;
+}
